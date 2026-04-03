@@ -250,9 +250,11 @@ We acknowledge the liberal help provided by the members of the college library a
 \addcontentsline{toc}{chapter}{Abstract}
 \chapter*{ABSTRACT}
     
-In high-density urban environments, losing an item is often a chaotic experience defined by panic and a lack of actionable data. Current methods rely on an "illusion of recovery," where people falsely believe lost items are easily found through traditional means, despite evidence to the contrary. 
+This project presents a \textbf{} designed to assist individuals with food allergies in making safer dietary choices, especially when ingredient information is unavailable. In many real-world scenarios such as restaurants or street food, the exact ingredients of a dish are often unknown, increasing the risk of allergic reactions. Existing solutions primarily rely on food labels or manual ingredient input, which are not effective for mixed or unlabeled foods.
 
-This project proposes \textbf{"Reunite,"} a mobile application that transforms the lost-and-found process from a passive "waiting game" into an active, algorithmically secured recovery mission. The key innovation of this system is the implementation of a "Trust Network" which prevents scams and ensures secure handovers through asymmetric privacy and verification protocols. By utilizing geospatial scoring, real-time data synchronization, and automated greedy clustering for map visualization, the application streamlines recovery while protecting user identity and property.
+To address this issue, the proposed system utilizes a hybrid approach combining machine learning and rule-based analysis. A custom-built dataset is used to train a lightweight convolutional neural network (MobileNetV2) for food image classification. The system identifies the food item from an uploaded image and estimates possible ingredients based on cuisine and preparation style. These inferred ingredients are then compared with the user’s allergy profile to determine the level of risk.
+
+The system provides a personalized output in the form of risk levels such as Low, Medium, or High, along with explanations to improve user awareness. Although the system does not guarantee medical accuracy, it serves as an effective decision-support tool for early allergy risk detection. This approach reduces dependency on manual input and enhances usability in real-world dining situations
 
 % TABLE OF CONTENTS
 \newpage
