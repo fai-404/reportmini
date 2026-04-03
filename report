@@ -250,7 +250,7 @@ We acknowledge the liberal help provided by the members of the college library a
 \addcontentsline{toc}{chapter}{Abstract}
 \chapter*{ABSTRACT}
     
-This project presents a \textbf{} designed to assist individuals with food allergies in making safer dietary choices, especially when ingredient information is unavailable. In many real-world scenarios such as restaurants or street food, the exact ingredients of a dish are often unknown, increasing the risk of allergic reactions. Existing solutions primarily rely on food labels or manual ingredient input, which are not effective for mixed or unlabeled foods.
+This project presents a \textbf{FOOD ALLERGY RISK ESTIMATION SYSTEM} designed to assist individuals with food allergies in making safer dietary choices, especially when ingredient information is unavailable. In many real-world scenarios such as restaurants or street food, the exact ingredients of a dish are often unknown, increasing the risk of allergic reactions. Existing solutions primarily rely on food labels or manual ingredient input, which are not effective for mixed or unlabeled foods.
 
 To address this issue, the proposed system utilizes a hybrid approach combining machine learning and rule-based analysis. A custom-built dataset is used to train a lightweight convolutional neural network (MobileNetV2) for food image classification. The system identifies the food item from an uploaded image and estimates possible ingredients based on cuisine and preparation style. These inferred ingredients are then compared with the user’s allergy profile to determine the level of risk.
 
@@ -295,52 +295,205 @@ $Lat$ & Latitude Coordinates \\
 \chapter{INTRODUCTION}
 
 \section{General Background}
-The project addresses the experience of losing items in busy urban settings. This experience is specifically defined by panic and a complete lack of actionable data to track the item. Society currently suffers from an "illusion of recovery," convincing ourselves that lost items will be found, despite vast evidence to the contrary. In reality, we rely on outdated, traditional methods to find these items, which are often ineffective, disjointed, and insecure.
+Food allergies are a significant health concern affecting millions of people worldwide. Allergic reactions can range from mild discomfort to severe and life-threatening conditions, making it essential for individuals to be aware of the ingredients present in their food. However, in many real-life situations such as restaurants, street food outlets, or homemade dishes, the exact ingredients are often unknown or not clearly listed. This creates a high risk for individuals with food allergies.
+
+Existing solutions, such as packaged food scanners and allergy-checking applications, mainly depend on labeled ingredients or manual user input. These approaches are not effective for mixed dishes or unlabeled food items, where ingredient details are uncertain. As a result, there is a need for a smarter and more practical solution that can assist users in identifying potential allergy risks without relying entirely on explicit ingredient information.
+
+
 
 \section{Objective}
-The primary objective of this project is to create an active, algorithmically secured recovery platform. By replacing vague physical searching with dynamic spatial mapping and enforcing asymmetric privacy during handovers, the system aims to establish a secure community-driven "Trust Network" that dramatically increases the recovery rate of lost urban property.
+The main objective of this project is to develop a Food Allergy Risk Estimation System that helps users identify potential allergy risks from food items when ingredient details are not available. The system aims to provide an early warning mechanism by analyzing food images and estimating possible ingredients.
+
+The specific objectives include:
+
+\begin{itemize}
+\item To identify food items using image-based classification techniques
+\item To estimate possible ingredients based on the identified dish
+\item To compare inferred ingredients with the user’s allergy profile
+\item To provide a clear risk indication as Low, Medium, or High
+\item To reduce dependency on manual ingredient input and labeled data
+\end{itemize}
 
 \section{Problem Statement}
-The traditional ecosystem of item recovery presents severe functional flaws. Scammers frequently use publicly posted photos of found items to fake ownership ("The Claim Scam"). Vague descriptions leave searchers with "Spatial Blindness," and overlapping digital pins create map clutter. Furthermore, old data stays up indefinitely, creating "Ghost Data" that reduces system efficiency.
+Food allergies have become a major health concern worldwide, with an increasing number of individuals affected by allergic reactions to common food ingredients such as nuts, dairy, seafood, and gluten. These reactions can vary from mild symptoms to severe conditions like anaphylaxis, making it essential for individuals to be cautious about what they consume. However, ensuring food safety becomes difficult when ingredient information is not readily available.
+
+In real-world scenarios such as restaurants, street food outlets, and homemade meals, food items often contain multiple ingredients that are not explicitly listed or communicated to the consumer. Many dishes are prepared using complex recipes, hidden ingredients, or cross-contamination methods, making it challenging for individuals to accurately identify potential allergens. This uncertainty significantly increases the risk of accidental exposure to harmful substances.
+
+Existing solutions, such as barcode scanners and allergy-checking mobile applications, mainly depend on packaged food labels or require users to manually input ingredients. These approaches are not suitable for mixed or unlabeled foods and often fail to provide accurate or reliable results. Additionally, they lack intelligent decision-making capabilities and do not offer personalized risk assessment based on individual allergy profiles.
+
+Another major challenge is the absence of systems that can interpret food visually and infer possible ingredients. While advancements in machine learning and computer vision have enabled food recognition, their integration into practical allergy risk estimation systems remains limited. There is a clear gap between food identification technologies and real-world allergy safety applications.
+
+Therefore, there is a need for an intelligent and user-friendly system that can analyze food items using image input, estimate possible ingredients, and evaluate potential allergy risks without relying solely on explicit ingredient information. Such a system should provide quick, understandable, and personalized feedback to users, helping them make safer dietary decisions in everyday situations.
 
 \section{Scope}
-The scope of Project Spear encompasses the development of a cross-platform mobile application utilizing Flutter, Supabase, and Mapbox to facilitate secure lost-and-found property recovery. It is designed for high-density urban areas, college campuses, and transit hubs. The system handles real-time geospatial tracking, cryptographic identity verification, and map decluttering, but currently excludes hardware tracking tags (like AirTags) and limits matching purely to user-submitted database entries.
+The scope of this project focuses on the design and development of a web-based Food Allergy Risk Estimation System that assists users in identifying potential allergy risks using food images and personalized allergy data. The system is intended for general awareness and practical use in everyday situations, especially where ingredient information is unavailable or unclear.
 
+The major scope of the system includes:
+\begin{itemize}
+
+
+\item \textbf{Image-Based Food Recognition:}
+The system uses a machine learning model (MobileNetV2) to identify food items from images uploaded by the user. This enables automatic detection without requiring manual input.
+\item \textbf{Custom Dataset Utilization:}
+The model is trained on a custom-built dataset consisting of various food categories, ensuring relevance to real-world and locally available dishes.
+\item \textbf{Ingredient Estimation Mechanism:}
+Based on the identified dish, the system estimates possible ingredients using predefined rules related to cuisine type and preparation methods.
+\item \textbf{Personalized Allergy Profiling:}
+Users can input their specific allergies, and the system evaluates food items based on individual sensitivity, making the output personalized.
+\item \textbf{Risk Level Prediction:}
+The system classifies the allergy risk into three levels — Low, Medium, and High — providing a simple and understandable output for users.
+\item \textbf{Explanation-Based Output:}
+Along with the risk level, the system provides reasoning or explanation to improve user awareness and trust in the system.
+\item \textbf{User-Friendly Web Interface:}
+The application is designed with a simple interface using HTML, CSS, and JavaScript, making it accessible to users with minimal technical knowledge.
+\item \textbf{Real-Time Processing:}
+The system is capable of providing quick results, making it suitable for real-time usage in restaurants or outdoor dining situations.
+\item \textbf{Lightweight and Scalable Design:}
+The use of MobileNetV2 ensures efficient performance, and the system can be further scaled by expanding the dataset and improving model accuracy.
+\end{itemize}
 
 % CHAPTER 2
 \chapter{LITERATURE SURVEY}
 
 \begin{table}[h]
 \centering
-\caption{Literature Survey of Mobile Recovery Architectures (Part 1)}
+\caption{Literature Survey of Food Allergy Risk (Part 1)}
 \label{tab:literature_survey_1}
 \vspace{0.5cm}
 \begin{tabularx}{\textwidth}{|>{\hsize=.3\hsize}X|>{\hsize=.35\hsize}X|>{\hsize=.35\hsize}X|}
 \hline
 \textbf{Name of the paper} & \textbf{Problem Tackled} & \textbf{Solutions Proposed} \\ \hline
-A secure and safe mobile application to retrieve lost items in educational institutes (Al-Otaibi, 2024) & Security risks in manual recovery and lack of trust in finders. & A secure mobile framework for campus-based recovery with verified user identities. \\ \hline
-Mobile application architectures for cloud-based data synchronization (Chen et al., 2016) & Data synchronization latency in mobile apps (causing "Ghost Data"). & Cloud-based architectures for real-time data synchronization (aligned with Supabase WebSockets). \\ \hline
-Design of user-centered mobile applications for digital content management (Kim et al., 2018) & Poor User Experience (UX) in content-heavy management systems. & User-centered design principles to improve engagement and clarity (aligned with UX Clarity/ Clustering). \\ \hline
-Uni Find: Lost and Found Objects Management System using Al Cloud Services (2025) & Inefficiency of manual keyword searching for visual items. & Integration of Al (Gemini/ OpenCV) for image-to-image matching to automate discovery. \\ \hline
-QR-Code Enabled Identification and Recovery System for Lost Individuals (2024) & Difficulty in verifying the identity of lost individuals/ items during handover. & A QR-code based protocol where scanning links to a secure database for instant verification. \\ \hline
-Archival and Retrieval of Lost Objects using Multi-feature Image Matching (2016) & False positives in matching items based on vague descriptions. & A multi-feature algorithm using color histograms and shape matching (SURF) to calculate similarity scores. \\ \hline
+The Diagnosis and
+Management of Food Allergy:
+Practice Parameter Update—
+2014
+ & Food allergy diagnosis lacks
+standardized clinical
+procedures & Provided updated guidelines
+for diagnosis and
+management, helping in
+structured allergy risk
+estimation. \\ \hline
+“The Natural History of
+Food Allergy” (H. A.
+Sampson) &Food allergy prediction
+is difficult due to
+changing immune
+response over time.
+ & Discussed allergy
+development
+patterns and clinical
+markers useful for
+prediction models \\ \hline
+MobileNetV2: Inverted
+Residuals and Linear
+Bottlenecks 
+ & Need for fast, low-compute
+convolutional models
+suitable for mobile / web
+deployment without large
+accuracy loss.
+ & Use MobileNetV2 as
+the lightweight image
+classifier backbone
+for fast dish
+identification on
+web/mobile \\ \hline
+Food-101: Mining Discriminative
+Components with
+Random Forests& Lack of large, realistic food
+image datasets for training
+and benchmarking food
+recognition models.& Introduced Food-101 (101K images) provides dataset and
+evaluation methodology you
+can use for training/validating \\ \hline
+A Review of Machine
+Learning in Food
+Allergy Prediction& Traditional diagnosis
+lacks computational
+prediction methods.& Reviewed ML-based
+prediction systems using
+patient symptoms,
+demographics, and medical
+history.
+ \\ \hline
+Food Image
+Recognition for Dietary
+Assessment Using Deep
+Learning&Food detection from
+images is challenging due
+to complex ingredients. & A Proposed deep learning CNN
+models for food classification\\ \hline
 \end{tabularx}
 \end{table}
 
 \begin{table}[h]
 \centering
-\caption{Literature Survey of Mobile Recovery Architectures (Part 2)}
+\caption{Literature Survey of Food Allergy Risk (Part 2)}
 \label{tab:literature_survey_2}
 \vspace{0.5cm}
 \begin{tabularx}{\textwidth}{|>{\hsize=.3\hsize}X|>{\hsize=.35\hsize}X|>{\hsize=.35\hsize}X|}
 \hline
 \textbf{Name of the paper} & \textbf{Problem Tackled} & \textbf{Solutions Proposed} \\ \hline
-Mobile Finder System: A Smart Approach to Lost and Found Mobile Tracking (2025) & Lack of real-time updates and "Theft Hotspots" in urban areas. & A Flutter/Firebase architecture that detects high-risk zones and provides real-time alerts. \\ \hline
-Reliable, Consistent, and Efficient Data Sync for Mobile Apps (2015) & Inconsistent data states when users go offline or have poor network. & A local-first sync architecture that merges data when online. \\ \hline
-Mafqodat: A Secure and Safe Mobile Application to Retrieve Lost Items (2023) & Data theft and privacy violations in standard lost-and-found apps. & Implementation of strict privacy controls and security protocols to protect user data. \\ \hline
-Smart Lost \& Found Management System with QR Code Tracking (2025) & The "Illusion of Recovery" where items are rarely returned due to friction. & A digitized platform achieving 75\% faster recovery using automated matching and QR tracking tags. \\ \hline
-Distributed Image Retrieval Method in Multi-Camera System of Smart City (2025) & Map clutter and processing overhead when handling thousands of images. & Clustering algorithms (K-means) to group similar items/locations and reduce visual noise. \\ \hline
-Android \& Firebase Based Anti-Theft Mobile Application (2023) & Theft of devices and fake ownership claims. & Use of hardware fingerprinting and secure auth to prevent unauthorized claims. \\ \hline
+Recipe1M / Im2recipe:
+Learning cross-modal
+embeddings for recipes and
+images & Inferring ingredients and
+recipe information from food
+images requires cross-modal
+knowledge (image ↔ recipe). &Provides large recipe+image
+dataset (Recipe1M) and
+methods to map images to
+recipe/ingredient space —
+useful for ingredient
+inference step \\ \hline
+Recognizing Multiple
+Ingredients in Food Images
+Using a Single-Ingredient
+Classification Model & Improving ingredient
+recognition accuracy for
+multiple-ingredient dishes &Proposes ingredient classification
+with post-processing to predict
+multiple ingredients, improving
+probability-based allergy risk
+estimation. \\ \hline
+Component-Resolved
+Diagnosis in Food Allergy& Normal allergy tests
+may give false
+positives because they
+do not identify exact
+allergen components.
+ & Proposed allergen component
+analysis for better
+identification of allergen
+triggers \\ \hline
+Food Allergy and
+Anaphylaxis
+Guidelines & Food allergy risk
+severity varies, and
+users may not
+understand how
+dangerous a food is.& Provided severity classification
+and structured allergy
+management guidelines, \\ \hline
+Deep Residual Learning for
+Image Recognition (ResNet)&Deep networks face
+degradation problems
+as layers increase. & Introduced ResNet, widely
+used in food recognition, useful
+as a comparison baseline for
+MobileNetV2 model. \\ \hline
+Mobile Phone Apps for
+Food Allergies or
+Intolerances: Systematic
+Assessment& Existing allergy apps
+lack decision
+support and
+reliability.& Recommends improved
+personalised decision-support
+tools, supporting AI-based risk estimation system. \\ \hline
+
+
 \end{tabularx}
 \end{table}
 
@@ -349,20 +502,48 @@ Android \& Firebase Based Anti-Theft Mobile Application (2023) & Theft of device
 \chapter{SYSTEM REQUIREMENT}
 
 \section{Hardware requirement}
+The system requires basic hardware components for development, deployment, and usage. Since the application is lightweight and web-based, it does not require high-end hardware.
+\subsection{For Development}
 \begin{itemize}
-    \item \textbf{Device:} Modern Android or iOS Smartphone.
-    \item \textbf{Camera:} Required for capturing item photos and scanning verification QR codes.
-    \item \textbf{GPS:} Hardware location services required for geolocation mapping and proximity scoring.
-    \item \textbf{Connectivity:} Stable internet connection (4G/5G/Wi-Fi) for real-time WebSocket sync.
+    \item \textbf{Processor:} Intel Core i5 / AMD Ryzen 5
+    \item \textbf{Device:} Laptop/desktop
+    \item \textbf{RAM:} 8 GB or higher
+    \item \textbf{Storage:} 20 GB free space
+    \item \textbf{GPU:} Optional (for faster model training)
+    \item \textbf{Connectivity:} Stable internet connection for smooth operation
 \end{itemize}
-
-\section{Software requirement}
+\subsection{For End Users}
 \begin{itemize}
-    \item \textbf{Operating System:} Android (Latest stable versions) or iOS.
-    \item \textbf{Framework:} Flutter SDK for cross-platform development.
-    \item \textbf{Language:} Dart.
-    \item \textbf{Database \& Backend:} Supabase (PostgreSQL with WebSockets integration).
-    \item \textbf{Mapping Service:} Mapbox SDK for rendering and clustering maps.
+    \item \textbf{Processor:} Basic processor capable of running a web browser
+    \item \textbf{Device:} Smartphone/Laptop or Desktop
+    \item \textbf{Camera:} Required for capturing food images
+    \item \textbf{Connectivity:} Basic internet connection
+    
+\end{itemize}
+\section{Software requirement}
+The system is developed using modern software tools and technologies that support web-based application development and machine learning integration.
+\begin{itemize}
+    \item \textbf{Operating System:}\begin{itemize}
+        \item windows 10/11
+        \item Linux
+        \item macOS
+        \item Android
+    \end{itemize}
+    \item \textbf{Development Environment:}
+   \begin{itemize}
+       \item Backend Framework: Flask
+       \item Frontend: HTML, CSS, JavaScript
+   \end{itemize}
+    \item \textbf{Language:} Python
+    \item \textbf{Database:} JSON-based storage.
+    \item \textbf{Dataset:} Custom made food dataset
+    \item \textbf{Machine Learning Tools:} TensorFlow / Keras (for MobileNetV2 model).
+    \item \textbf{Tools and Platforms:}\begin{itemize}
+        \item IDE: Visual Studio Code
+        \item Machine Learning Model Training : Google Colab
+        \item Browser: Google Chrome
+        \item Version Control: Git
+    \end{itemize}
 \end{itemize}
 
 
