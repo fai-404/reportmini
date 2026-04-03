@@ -40,7 +40,7 @@
 
 % YOUR FIXED HEADER/FOOTER (STATIC)
 \lhead{\hspace{-0.15in}\footnotesize PROJECT SPEAR: LOST \& FOUND RECOVERY MOBILE APP}
-\rhead{\footnotesize Final Project Report}
+\rhead{\hspace{3 in}\footnotesize Final Project Report}
 \lfoot{\hspace{-0.15in}\scriptsize Department of Computer Science and Engineering}
 \rfoot{\scriptsize Thejus Engg college, Vellarakkad, Thrissur}
 \cfoot{\thepage}
@@ -57,7 +57,7 @@
   \fancyhf{}
   \lhead{\hspace{-0.15in}\footnotesize PROJECT SPEAR: LOST \& FOUND RECOVERY MOBILE APP}
   \rhead{\footnotesize Final Project Report}
-  \lfoot{\hspace{-0.15in}\scriptsize Department of Computer Science and Engineering}
+  \lfoot{\scriptsize Department of Computer Science and Engineering}
   \rfoot{\scriptsize Thejus Engg college, Vellarakkad, Thrissur}
   \cfoot{\thepage}
   \renewcommand{\headrulewidth}{0pt}
@@ -106,22 +106,22 @@
     \begin{center}
         \vspace*{0.5cm}
         
-        {\LARGE \bfseries ALLER SCAN : FOOD ALLERGY \\ RISK ESTIMATION SYSTEM \par}
-        
-        \vspace{1.5cm}
-        
-        {\Large \bfseries MINI PROJECT REPORT \par}
+        {\LARGE \bfseries FOOD ALLERGY \\ RISK ESTIMATION SYSTEM \par}
         
         \vspace{1cm}
         
+        {\Large \bfseries FINAL MINI PROJECT REPORT \par}
+        
+        \vspace{0.2cm}
+        
         {\large \textit{Submitted by} \par}
-        \vspace{0.5cm}
+        \vspace{1cm}
         {\Large \bfseries MOHAMMED FAHEEM NV \par}
         {\Large \bfseries THANSEEH PP \par}
         {\Large \bfseries NOURIN FATHIMA \par}
         {\Large \bfseries MOHAMMED SHAMMAS \par}
         
-        \vspace{1cm}
+        \vspace{0.7cm}
         
         {\large \textit{in partial fulfillment for the award of the degree} \par}
         \vspace{0.1cm}
@@ -135,7 +135,7 @@
         
         \vspace{1cm}
         
-        \includegraphics[width=2.5cm]{loogo.jpeg} \par 
+        \includegraphics[width=2.5cm]{tec.jpg} \par 
         
         \vspace{0.5cm}
         
@@ -162,7 +162,7 @@
     {\normalsize \bfseries Vellarakkad, Thrissur - 680 584 \par}
     {\normalsize (http://www.thejusengg.ac.in) \par}
     \vspace{1.2cm}
-     \includegraphics[width=2.5cm]{loogo.jpeg} \par
+     \includegraphics[width=2.5cm]{tec.jpg} \par
     
     \vspace{0.8cm}
     
@@ -171,7 +171,7 @@
 
 \vspace{0.5cm}
 
-\noindent This is to certify that the report entitled \textbf{PROJECT SPEAR: LOST \& FOUND RECOVERY MOBILE APP} submitted by \textbf{AHZAN AABID, NIHAL K, SREYAS KV, and VARSHA K} to the APJ Abdul Kalam Technological University in partial fulfillment of the B.Tech. degree in Computer Science and Engineering is a bonafide record of the project work carried out by them under my guidance and supervision.
+\noindent This is to certify that the report entitled \textbf{FOOD ALLERGY RISK ESTIMATION SYSTEM} submitted by \textbf{MOHAMED FAHEEM NV, THANSEEH PP, NOURIN FATHIMA MR , and MOHAMMED SHAMMAS} to the APJ Abdul Kalam Technological University in partial fulfillment of the B.Tech. degree in Computer Science and Engineering is a bonafide record of the project work carried out by them under my guidance and supervision.
 
 \vspace{0.5cm}
 \noindent This report in any form has not been submitted to any other University or Institute for any purpose.
@@ -182,17 +182,26 @@
 (Project Guide) \hfill Associate Professor and HOD \\
 Department of CSE \hfill Department of CSE \\
 Thejus Engineering College \hfill Thejus Engineering College 
+\vspace{1cm}
+
+\begin{center}
+    \textbf{Ms. Vinitha A V} \\
+    Associate Professor and HOD \\
+    Dept. of CSE \\
+    Thejus Engineering College
+\end{center}
 
 % DECLARATION
 \newpage
 \phantomsection
 \addcontentsline{toc}{chapter}{Declaration}
 \begin{center}
-    {\Large \bfseries DECLARATION \par}
+      \vspace*{1.5cm}
+    {\Large \bfseries \underline{DECLARATION} \par}
 \end{center}
 \vspace{1cm}
 
-\noindent We hereby declare that the project report entitled \textbf{"PROJECT SPEAR: LOST \& FOUND RECOVERY MOBILE APP"} submitted in partial fulfillment of the requirements for the award of the degree of Bachelor of Technology in Computer Science and Engineering of APJ Abdul Kalam Technological University, Kerala, is a bonafide record of our own work carried out under the supervision and guidance of \textbf{Ms. Heera BM}, Assistant Professor, Department of Computer Science and Engineering, Thejus Engineering College.
+\noindent We hereby declare that the project report entitled \textbf{"FOOD ALLERGY RISK ESTIMATION SYSTEM"} submitted in partial fulfillment of the requirements for the award of the degree of Bachelor of Technology in Computer Science and Engineering of APJ Abdul Kalam Technological University, Kerala, is a bonafide record of our own work carried out under the supervision and guidance of \textbf{Ms. Heera BM}, Assistant Professor, Department of Computer Science and Engineering, Thejus Engineering College.
 
 \vspace{0.5cm}
 \noindent We further declare that to the best of our knowledge, the matter embodied in this report has not been submitted by us for the award of any other degree or diploma to this or any other University/Institute.
@@ -205,10 +214,10 @@ Date: \today
 
 \vspace{1cm}
 \begin{flushright}
-\textbf{AHZAN AABID} \\
-\textbf{NIHAL K} \\
-\textbf{SREYAS KV} \\
-\textbf{VARSHA K} 
+\textbf{MOHAMMED FAHEEM NV} \\
+\textbf{THANSEEH PP} \\
+\textbf{NOURIN FATHIMA MR} \\
+\textbf{MOHAMMED SHAMMAS } 
 \end{flushright}
 
 
@@ -219,7 +228,7 @@ Date: \today
 \addcontentsline{toc}{chapter}{Acknowledgement}
 \chapter*{ACKNOWLEDGMENT}
 
-The project on the topic "PROJECT SPEAR: LOST \& FOUND RECOVERY MOBILE APP" was taken as a part of the curriculum for the award of B.Tech degree in Computer Science and Engineering.
+The project on the topic "FOOD ALLERGY RISK ESTIMATION SYSTEM" was taken as a part of the curriculum for the award of B.Tech degree in Computer Science and Engineering.
 
 We sincerely express our gratefulness to the Principal of Thejus Engineering College, Vellarakkad, and the Head of Department, Computer Science and Engineering, for encouraging and supporting us throughout the project.
 
@@ -229,10 +238,10 @@ We acknowledge the liberal help provided by the members of the college library a
 
 \vspace{2cm}
 
-\noindent \textbf{AHZAN AABID} \\
-\textbf{NIHAL K} \\
-\textbf{SREYAS KV} \\
-\textbf{VARSHA K} 
+\noindent \textbf{MOHAMMED FAHEEM NV} \\
+\textbf{THANSEEH PP} \\
+\textbf{NOURIN FATHIMA MR} \\
+\textbf{MOHAMMED SHAMMAS} 
 
 % ABSTRACT
 \newpage
