@@ -1,0 +1,54 @@
+Acknowledgement
+Abstract
+List of Figures
+List of Symbols
+
+Chapter 1: Introduction
+
+1.1 : General Background
+1.2 : Objective
+1.3 : Problem Statement
+1.4 : Scope
+
+Chapter 2: Literature Survey
+
+(Same format of PDF)
+
+Chapter 3: System Requirement
+
+3.1 : Hardware Requirement
+3.2 : Software Requirement
+
+Chapter 4: System Development
+
+4.1 : Existing System
+4.1.1 : Disadvantages
+4.2 : Proposed System
+4.2.1 : Advantages
+4.3 : Modules
+	4.3.1 : —
+	4.3.2 : —
+
+Chapter 5: System Design
+
+5.1 : System Architecture
+5.2 : Dataflow Diagram
+	5.2.1 : Level 0 – DFD
+	5.2.2 : Level 1 – DFD
+
+Chapter 6: Implementation, Result & Performance Evaluation
+
+6.1 : System Implementation
+(Include code screenshots & images)
+
+6.2 : System Analysis
+	6.2.1 : Testing Analysis
+	6.2.2 : Unit Testing
+	6.2.3 : System Testing
+6.3 : Performance Analysis
+
+Chapter 7: Conclusion
+
+7.1 : Future Scope
+
+References
