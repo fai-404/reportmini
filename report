@@ -39,8 +39,8 @@
 \fancyhf{}
 
 % YOUR FIXED HEADER/FOOTER (STATIC)
-\lhead{\hspace{-0.15in}\footnotesize PROJECT SPEAR: LOST \& FOUND RECOVERY MOBILE APP}
-\rhead{\hspace{3 in}\footnotesize Final Project Report}
+\lhead{\hspace{-0.15in}\footnotesize FOOD ALLERGY RISK ESTIMATION SYSTEM}
+\rhead{\hspace{3 in}\footnotesize Mini Project Report}
 \lfoot{\hspace{-0.15in}\scriptsize Department of Computer Science and Engineering}
 \rfoot{\scriptsize Thejus Engg college, Vellarakkad, Thrissur}
 \cfoot{\thepage}
@@ -55,9 +55,9 @@
 % �� APPLY SAME STYLE TO PLAIN PAGES
 \fancypagestyle{plain}{
   \fancyhf{}
-  \lhead{\hspace{-0.15in}\footnotesize PROJECT SPEAR: LOST \& FOUND RECOVERY MOBILE APP}
-  \rhead{\footnotesize Final Project Report}
-  \lfoot{\scriptsize Department of Computer Science and Engineering}
+  \lhead{\hspace{-0.15in}\footnotesize FOOD ALLERGY RISK ESTIMATION SYSTEM}
+  \rhead{\footnotesize  Mini Project Report}
+  \lfoot{\hspace{-0.15in}\scriptsize Department of Computer Science and Engineering}
   \rfoot{\scriptsize Thejus Engg college, Vellarakkad, Thrissur}
   \cfoot{\thepage}
   \renewcommand{\headrulewidth}{0pt}
@@ -171,15 +171,15 @@
 
 \vspace{0.5cm}
 
-\noindent This is to certify that the report entitled \textbf{FOOD ALLERGY RISK ESTIMATION SYSTEM} submitted by \textbf{MOHAMED FAHEEM NV, THANSEEH PP, NOURIN FATHIMA MR , and MOHAMMED SHAMMAS} to the APJ Abdul Kalam Technological University in partial fulfillment of the B.Tech. degree in Computer Science and Engineering is a bonafide record of the project work carried out by them under my guidance and supervision.
+\noindent This is to certify that the report entitled \textbf{FOOD ALLERGY RISK ESTIMATION SYSTEM} submitted by \textbf{MOHAMED FAHEEM NV, THANSEEH PP, NOURIN FATHIMA, and MOHAMMED SHAMMAS} to the APJ Abdul Kalam Technological University in partial fulfillment of the B.Tech. degree in Computer Science and Engineering is a bonafide record of the project work carried out by them under my guidance and supervision.
 
 \vspace{0.5cm}
 \noindent This report in any form has not been submitted to any other University or Institute for any purpose.
 
 \vspace{2cm}
 
-\noindent \textbf{Ms. Heera BM} \hfill \textbf{HOD} \\
-(Project Guide) \hfill Associate Professor and HOD \\
+\noindent \textbf{Ms. Blessy Varghese} \hfill \textbf{Ms.Heera BM} \\
+(Project Guide) \hfill (Project Coordinator) \\
 Department of CSE \hfill Department of CSE \\
 Thejus Engineering College \hfill Thejus Engineering College 
 \vspace{1cm}
@@ -191,56 +191,28 @@ Thejus Engineering College \hfill Thejus Engineering College
     Thejus Engineering College
 \end{center}
 
-% DECLARATION
-\newpage
-\phantomsection
-\addcontentsline{toc}{chapter}{Declaration}
-\begin{center}
-      \vspace*{1.5cm}
-    {\Large \bfseries \underline{DECLARATION} \par}
-\end{center}
-\vspace{1cm}
-
-\noindent We hereby declare that the project report entitled \textbf{"FOOD ALLERGY RISK ESTIMATION SYSTEM"} submitted in partial fulfillment of the requirements for the award of the degree of Bachelor of Technology in Computer Science and Engineering of APJ Abdul Kalam Technological University, Kerala, is a bonafide record of our own work carried out under the supervision and guidance of \textbf{Ms. Heera BM}, Assistant Professor, Department of Computer Science and Engineering, Thejus Engineering College.
-
-\vspace{0.5cm}
-\noindent We further declare that to the best of our knowledge, the matter embodied in this report has not been submitted by us for the award of any other degree or diploma to this or any other University/Institute.
-
-\vspace{2cm}
-\begin{flushleft}
-Place: Vellarakkad \\
-Date: \today
-\end{flushleft}
-
-\vspace{1cm}
-\begin{flushright}
-\textbf{MOHAMMED FAHEEM NV} \\
-\textbf{THANSEEH PP} \\
-\textbf{NOURIN FATHIMA MR} \\
-\textbf{MOHAMMED SHAMMAS } 
-\end{flushright}
-
-
 % ACKNOWLEDGEMENT
 \newpage
-\phantomsectiona
+\phantomsection
 \titlespacing*{\chapter}{0pt}{25pt}{30pt}
 \addcontentsline{toc}{chapter}{Acknowledgement}
 \chapter*{ACKNOWLEDGMENT}
 
-The project on the topic "FOOD ALLERGY RISK ESTIMATION SYSTEM" was taken as a part of the curriculum for the award of B.Tech degree in Computer Science and Engineering.
+We would like to express our sincere gratitude to all those who have supported and guided us throughout the successful completion of our mini project titled \textbf{“Food Allergy Risk Estimation System.”}
 
-We sincerely express our gratefulness to the Principal of Thejus Engineering College, Vellarakkad, and the Head of Department, Computer Science and Engineering, for encouraging and supporting us throughout the project.
+First and foremost, we extend our heartfelt thanks to our project guide \textbf{Ms.Blessy Varghese}, Assistant Professor, Department of Computer Science and Engineering, Thejus Engineering College, for her valuable guidance, continuous encouragement, and support throughout the project
 
-We are also highly thankful to our project guide, \textbf{Ms. Heera BM}, who through her expert supervision, encouragement, and constructive criticism gave us constant support amidst her busy schedule.
+We are also highly thankful to our project coordinator, \textbf{Ms. Heera BM}, who through her expert supervision, encouragement, and constructive criticism gave us constant support amidst her busy schedule.
 
-We acknowledge the liberal help provided by the members of the college library and the institutional staffs. Last but not least, we thank our classmates for their support and God the almighty for leading us straight to the success of this project.
+We also express our sincere thanks to \textbf{Ms. Vinitha A V} Head of the Department of Computer Science and Engineering, Thejus Engineering College, for providing the necessary facilities and academic support required for the successful completion of this work.
+
+We are grateful to the college management for providing the infrastructure and learning environment needed for this project. We also thank our faculty members,friends, and classmates for their support, suggestions, and encouragement during the development of this project and God the almighty for leading us straight to the success of this project.
 
 \vspace{2cm}
 
 \noindent \textbf{MOHAMMED FAHEEM NV} \\
 \textbf{THANSEEH PP} \\
-\textbf{NOURIN FATHIMA MR} \\
+\textbf{NOURIN FATHIMA } \\
 \textbf{MOHAMMED SHAMMAS} 
 
 % ABSTRACT
@@ -272,16 +244,24 @@ The system provides a personalized output in the form of risk levels such as Low
 \addcontentsline{toc}{chapter}{List of Symbols}
 \chapter*{List of Symbols}
 
-\begin{tabular}{ll}
+\begin{tabular}{@{\hspace{1cm}}l@{\hspace{1cm}}l}
 \textbf{Symbol} & \textbf{Description} \\
 \vspace{0.2cm} \\
-$S_{geo}$ & Geospatial Proximity Score \\
-$V_{time}$ & Time Freshness Vector \\
-$S_{attr}$ & Attribute Similarity Score \\
-$mScore$ & Final Calculated Match Score Probability \\
-$O(N)$ & Big-O Notation for Linear Time Complexity \\
-$Lng$ & Longitude Coordinates \\
-$Lat$ & Latitude Coordinates \\
+\textbf{AI} & Artificial Intelligence \\[6pt]
+\textbf{ML} & Machine Learning\\[6pt]
+\textbf{CNN} & Convolutional Neural Network\\[6pt]
+\textbf{DB} & Database Storage\\[6pt]
+\textbf{API}    & Application Programming Interface  \\[6pt]
+\textbf{HTML}   & HyperText Markup Language  \\[6pt]
+\textbf{CSS}   & Cascading Style Sheets \\[6pt]
+\textbf{JS}   & JavaScript \\[6pt]
+\textbf{DFD}   & Data Flow Diagram \\[6pt]
+\textbf{UI}   & User Interface \\[6pt]
+\textbf{MobileNET V2}   & Machine Learning Model\\[6pt]
+\textbf{IDE}   & Integrated Development Environment\\[6pt]
+\textbf{RGB}   &  Red Green Blue (Color Space)\\[6pt]
+\textbf{$Softmax$} & Activation Function for Classification \\ 
+
 \end{tabular}
 \newpage
 
@@ -494,6 +474,7 @@ personalised decision-support
 tools, supporting AI-based risk estimation system. \\ \hline
 
 
+
 \end{tabularx}
 \end{table}
 
@@ -551,76 +532,117 @@ The system is developed using modern software tools and technologies that suppor
 \chapter{SYSTEM DEVELOPMENT}
 
 \section{Existing system}
-The existing methods for recovering lost items are fundamentally flawed across several domains. Users must rely on manual keyword searches or endless scrolling through social media feeds and forums. Organization is typically presented as an unsorted, unverified list. Furthermore, the physical return of items is completely unverified and carries inherent physical and property risks.
+Existing systems for food allergy detection mainly rely on traditional methods such as packaged food scanning and manual ingredient input. These systems are commonly available in the form of mobile applications or barcode scanners, which read ingredient labels from packaged food items.
+
+Some applications allow users to manually enter ingredients and check for allergens. However, these approaches are limited in real-world scenarios where food is not labeled, such as restaurant dishes, street food, or homemade meals. Additionally, these systems do not use image-based detection and lack intelligent analysis capabilities.
 
 \subsection{Disadvantages}
 \begin{itemize}
-    \item High vulnerability to false claims and scammers stealing property.
-    \item Visual clutter and data fatigue due to non-clustered, localized pins.
-    \item Persistent "Ghost Data" from unremoved old posts that obscure recent lost items.
+    \item Dependence on food labels, which are not available for all food items.
+    \item Requires manual entry of ingredients, which is time-consuming.
+    \item Not suitable for mixed or complex dishes.
+    \item No support for image-based food recognition.
+    \item Lack of automation and intelligent decision-making.
+    \item Limited personalization based on user allergy profiles.
+    \item Inconsistent or unclear risk explanation
 \end{itemize}
-
+\newpage
 \section{Proposed System}
-To counter the limitations of the existing systems, the "Reunite" platform introduces advanced mechanisms including Asymmetric Privacy, an Algorithmic Scoring Engine, $O(N)$ Greedy Clustering for maps, and Cryptographic QR Verification for secure handovers.
+The proposed system is a Food Allergy Risk Estimation System that uses a combination of machine learning and rule-based logic to provide allergy risk analysis. The system allows users to upload an image of a food item, which is then processed using a lightweight deep learning model (MobileNetV2) to identify the dish.
 
+After identifying the food item, the system estimates possible ingredients based on cuisine and preparation style. These inferred ingredients are then compared with the user’s allergy profile to determine the level of risk. The system provides output in the form of risk levels such as Low, Medium, or High, along with explanations for better understanding.
+
+The proposed system works as a decision-support tool and is designed to be user-friendly, efficient, and suitable for real-world usage where ingredient information is not explicitly available.
 \subsection{Advantages}
 \begin{itemize}
-    \item \textbf{Scam Immunity:} The Asymmetric Privacy engine eliminates visual bait for scammers.
-    \item \textbf{UX Clarity:} The integrated Greedy Clustering ensures maps remain highly usable.
-    \item \textbf{High Performance:} Lightweight algorithms ensure the app remains snappy.
-    \item \textbf{Real-Time Agility:} WebSockets deliver millisecond updates, effectively eliminating "Ghost Data."
+    \item \textbf{Eliminates Dependence on Explicit Ingredient Information:}  The system can estimate allergy risk even when ingredient details are unavailable, making it highly suitable for real-world dining scenarios.
+    \item \textbf{Automated Image-Based Food Recognition:} Utilizes a machine learning model (MobileNetV2) to identify food items directly from images, reducing the need for manual input.
+    \item \textbf{Personalized Risk Assessment:} Provides customized results by analyzing user-specific allergy profiles, enhancing the relevance and usefulness of the output.
+    \item \textbf{Real-Time Risk Evaluation:} Delivers quick and efficient results, making it practical for on-the-spot decision-making in restaurants and outdoor environments.
+    \item \textbf{User-Friendly Interface:} Designed with simplicity and       accessibility in mind, allowing users with minimal technical knowledge to  interact with the system.
+    \item \textbf{Explainable Output:} Provides clear reasoning along with risk levels, increasing user trust and transparency in system predictions.
+    \item \textbf{Reduced Manual Dependency:} Minimizes user effort by automating food identification and risk analysis processes.
+    \item \textbf{Scalability and Extensibility:} The system can be enhanced by expanding the dataset, improving model accuracy, and integrating additional features such as real-time ingredient detection.
+    \item \textbf{No Login/Signup Required:} For making decisions as fast as possible it will allow to use without sign up or login 
 \end{itemize}
 
 \section{Modules}
+The system is divided into multiple modules, each responsible for a specific task.
 
-\subsection{Matching and Scoring Engine}
-The backend "brain" that mathematically calculates match probabilities by weighing proximity, time freshness, and attribute similarity.
+\subsection{User Module}
+This module is responsible for collecting and managing user inputs, including food images and allergy preferences. The user uploads a food image through the web interface using options such as drag-and-drop or file browsing, with supported formats including JPG, PNG, and WEBP. The user also selects relevant allergy types from a predefined list. The selected allergy data is stored for future use, enabling personalized allergy risk assessment.
 
-\subsection{Asymmetric Privacy Controller}
-Prevents fraudulent claims by actively obfuscating item details (like blurring photos) until a user proves ownership.
+\subsection{Image Preprocessing Module}
+This module prepares the uploaded image for analysis by the machine learning model. It performs essential preprocessing operations such as resizing the image to a fixed dimension of 224×224 pixels, which is required for the MobileNetV2 model. 
 
-\subsection{Map Visualization \& Clustering}
-Uses MapBox and an $O(N)$ greedy clustering algorithm to manage high-density item pins and suggest secure "Safe Zones" for meeting.
+The module also normalizes pixel values to a range of 0 to 1, improving model performance and stability. Additionally, the image is converted into a numerical array and reshaped into batch format to meet the input requirements of the model. These steps ensure consistency, reduce noise, and enhance the overall accuracy of the classification process.
+\subsection{Food Identification Module}
+This module is responsible for identifying the food item present in the uploaded image. It uses a trained MobileNetV2 convolutional neural network model, which is optimized for efficient and accurate image classification.
 
-\subsection{Real-Time Data Sync}
-Utilizes Supabase WebSockets to eliminate "ghost data" by pushing instant data updates to all connected users.
+The preprocessed image is fed into the model, which predicts the most probable food category along with a confidence score. The module ensures fast and reliable classification even with limited computational resources. The predicted food label is then forwarded to the next stage for ingredient estimation.
+\subsection{Ingredient Estimation Module}
+This module estimates the possible ingredients associated with the identified food item. It uses a predefined ingredient database that maps food items to their commonly used ingredients. The module enhances accuracy by considering variations in cuisine and regional preparation styles, allowing it to handle diverse food types. 
 
+The estimated ingredients are structured into a list format, which is then used for further analysis. This module plays a crucial role in bridging the gap between food recognition and allergy detection.
+\subsection{Allergy Matching Module}
+This module performs the critical task of identifying potential allergens by comparing the estimated ingredients with the user’s selected allergy preferences. It uses a rule-based matching mechanism to detect overlaps between ingredients and known allergenic substances. 
 
+The module generates a list of matched allergens along with the corresponding ingredients responsible for triggering them. This ensures that the system provides accurate and meaningful information about potential risks.
+\subsection{Risk Prediction Module}
+This module evaluates the severity of the allergy risk based on the results obtained from the allergy matching module. It applies rule-based logic to categorize the risk into predefined levels such as SAFE, MEDIUM, or HIGH. The classification is based on the number and type of detected allergens. The module also generates a clear and concise warning message, helping users understand the level of risk and take appropriate action.
+\subsection{Result Display Module}
+This module is responsible for presenting the final output to the user in a structured and user-friendly manner. It displays key information such as the identified food name, confidence score, estimated ingredients, and allergy risk level.
+
+Additionally, it highlights detected allergens and provides warning messages for better user awareness. The interface is designed to be intuitive, ensuring that users can quickly interpret the results and make informed decisions.
 % CHAPTER 5
 \chapter{SYSTEM DESIGN}
 
 \section{System Architecture}
-The system architecture operates across two primary layers: The Client Layer (built with Flutter and Mapbox for UI and spatial rendering) and the Backend Layer (utilizing Supabase and PostgreSQL for WebSockets and data management).
+The Food Allergy Risk Estimation System follows a layered architecture consisting of presentation, application, intelligent, and data layers. The presentation layer provides a user-friendly interface for uploading food images and entering allergy details using HTML, CSS, and JavaScript.
+
+The application layer, implemented using Python Flask, handles user requests, performs image preprocessing, and manages the overall system workflow. The intelligent layer performs the core analysis, where the MobileNetV2 model identifies the food item, and rule-based logic estimates ingredients, matches them with user allergies, and determines the risk level as Low, Medium, or High.
+
+The data layer stores user allergy profiles and food-related data using JSON. This layered approach ensures efficient processing, modular design, and easy system maintenance.
 
 \vspace{0.5cm}
 \begin{figure}[h]
     \centering
-    \vspace{6cm} % Space for your Architecture Diagram
+    \includegraphics[width=0.75\textwidth]{arch1.jpeg}
     \caption{Proposed System Architecture}
     \label{fig:system_architecture}
 \end{figure}
 
 \section{Dataflow Diagram}
-Dataflow diagrams represent the flow of information through the system, demonstrating how inputs like geospatial coordinates and item images are processed, scored, and returned to the user interface.
+Dataflow diagrams represent the flow of information through the system, demonstrating how inputs like user images and allergens are processed, identified, matched and returned to the user interface.
 
 \subsection{Level 0 : DFD}
-The Level 0 DFD (Context Diagram) shows the entire Reunite system as a single process interacting with external entities (Lost User and Found User), highlighting the core inputs and outputs.
+The DFD Level 0,(context diagram) represents a high-level overview of the Food Allergy Risk Estimation System. It illustrates how the system interacts with external entities without showing internal processing details.
+
+Here the User acts as the primary external entity. The user provides input to the system in the form of a food image along with allergy details. This input is received by the Food Allergy Risk Estimation System, which is represented as a single process.The system processes this input and returns the allergy risk result to the user.
 
 \vspace{0.5cm}
 \begin{figure}[h]
     \centering
-    \vspace{5cm} % Space for Level 0 DFD
+    \includegraphics[width=0.75\textwidth]{DFD0.png}
     \caption{Level 0 Data Flow Diagram}
     \label{fig:dfd_0}
 \end{figure}
 
 \subsection{Level 1 : DFD}
-The Level 1 DFD breaks down the main system into detailed sub-processes, including Authentication, Item Posting, Algorithmic Scoring, and the QR Verification Handshake.
+The Level 1 DFD breaks the system into smaller processes.
+\begin{itemize}
+    \item \textbf{Image Input Process:} Uploads food image and allergy details.
+    \item \textbf{Image Preprocessing Process:} Prepares image for analysis.
+    \item \textbf{Food Identification Process:} Classifies food using MobileNetV2.
+    \item \textbf{Ingredient Estimation Process:} Extracts possible ingredients.
+    \item \textbf{Allergy Matching Process:} Compares with user allergies.
+    \item \textbf{Risk Prediction Process:} Determines risk level.
+\end{itemize}
 
-\vspace{0.5cm}
+\vspace{3cm}
 \begin{figure}[h]
     \centering
-    \vspace{5cm} % Space for Level 1 DFD
+    \includegraphics[width=0.85\textwidth]{DFD1.png}
     \caption{Level 1 Data Flow Diagram}
     \label{fig:dfd_1}
 \end{figure}
@@ -630,78 +652,211 @@ The Level 1 DFD breaks down the main system into detailed sub-processes, includi
 \chapter{IMPLEMENTATION RESULT \& PERFORMANCE EVALUATION}
 
 \section{System Implementation}
-The implementation phase successfully translated the architectural design into functional code. Below are the core implementation snippets handling database initialization, algorithmic scoring, and map rendering.
-
-\begin{lstlisting}[language=Java, caption=Supabase and Mapbox Initialization]
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  
-  await Supabase.initialize(
-    url: 'https://txyphuzzcydfqskkeumv.supabase.co',
-    anonKey: 'sb_publishable_XNF-syChe59jxqBGX8jrLA_nQ3176VN',
-  );
-
-  runApp(const ReuniteApp());
-}
-\end{lstlisting}
-
-\begin{lstlisting}[language=Java, caption=Algorithmic Match Scoring Engine]
-double sGeo = (1 - (distance / 0.05)).clamp(0.0, 1.0);
-bool categoryMatch = targetLost['category'] != null && 
-                     targetLost['category'] == found['category'];
-
-String lostTags = (targetLost['tags'] ?? "").toString().toLowerCase();
-String foundTags = (found['tags'] ?? "").toString().toLowerCase();
-
-double sAttr = (lostTags.isNotEmpty && 
-                foundTags.contains(lostTags.split(',').first.trim())) 
-                ? 1.0 : 0.0;
-
-double mScore = (sGeo * 0.4) + (categoryMatch ? 0.4 : 0.0) + (sAttr * 0.2);
-if (!categoryMatch) mScore = 0.05;
-\end{lstlisting}
-
-% Spaces left for screenshots
+The implementation phase successfully translated the architectural design into functional code. Below are the core implementation snippets handling backend integration, mapping logic,importing machine learning models.
 \vspace{0.5cm}
+\begin{lstlisting}[language=Python, caption=Flask Backend integration & importing modules, abovecaptionskip=10pt, belowcaptionskip=10pt]
+from flask import Flask, request, jsonify, render_template
+import tensorflow as tf
+from tensorflow.keras.applications import MobileNetV2
+from tensorflow.keras import layers, models
+import numpy as np
+from PIL import Image
+import json
+import io
+
+app = Flask(__name__)
+\end{lstlisting}
+\subsection{Building Model Architecture}
+\begin{lstlisting}[language=Python, caption=Machine Learning model Architecture, abovecaptionskip=10pt]
+def build_model(num_classes):
+    base_model = MobileNetV2(
+        input_shape=(224, 224, 3),
+        include_top=False,
+        weights=None
+    )
+
+    base_model.trainable = False
+
+    model = models.Sequential([
+        base_model,
+        layers.GlobalAveragePooling2D(),
+        layers.Dense(256, activation='relu'),
+        layers.Dropout(0.3),
+        layers.Dense(128, activation='relu'),
+        layers.Dropout(0.2),
+        layers.Dense(num_classes, activation='softmax')
+    ])
+
+    return model
+    
+\end{lstlisting}
+
+
+The \texttt{build\_model} function creates a food classification model using 
+the MobileNetV2 architecture.The base model is initialized without the top 
+layer and kept non-trainable. Additional layers such as pooling, dense, and 
+dropout are added, followed by a softmax layer to classify images into 
+different food categories.
+
+\vspace{0.2cm}
+\subsection{Image Preprocessing}
+\begin{lstlisting} [language=Python, caption=Image Preprocessing, abovecaptionskip=10pt]
+    def preprocess_image(image_bytes):
+    img = Image.open(io.BytesIO(image_bytes)).convert('RGB')
+    img = img.resize((224, 224))
+    img_array = np.array(img) / 255.0
+    img_array = np.expand_dims(img_array, axis=0)
+    return img_array
+\end{lstlisting}
+
+The \texttt{preprocess\_image} function prepares the input image for the machine learning model. It converts the image to RGB format, resizes it to 224×224 pixels, and normalizes pixel values to a range of 0 to 1. The image is then converted into a numerical array and reshaped into a batch format suitable for the MobileNetV2 model. The processed image is returned for further classification.
+\subsection{Loading ML-Model}
+\begin{lstlisting} [language=Python, caption=Loading Trained ML Model, abovecaptionskip=10pt]
+model = build_model(len(class_names)) 
+model.load_weights('best_phase2.weights.h5')
+print(f"✅ Ready! {len(class_names)} classes loaded.")
+\end{lstlisting}
+
+Loads the trained weights from a saved file (bestphase2.weights.h5), enabling the model to perform predictions without retraining.
+\vspace{1cm}
+\subsection{Rule Based Logic}
+\begin{lstlisting} [language=Python, caption=Rule Based Mapping Logic, abovecaptionskip=10pt]
+   def check_allergens(dish_name, user_allergens):
+    dish_ingredients = ingredients_db.get(dish_name, [])
+
+    triggered = []
+    for allergen in user_allergens:
+        trigger_ingredients = allergens_db.get(allergen, [])
+        for ing in dish_ingredients:
+            if ing in trigger_ingredients:
+                triggered.append({
+                    "allergen": allergen,
+                    "found_ingredient": ing
+                })
+                
+
+    count = len(triggered)
+    if count == 0:
+        risk = "SAFE"
+    elif count == 1:
+        risk = "MEDIUM"
+    else:
+        risk = "HIGH"
+
+    return {
+        "dish": dish_name,
+        "ingredients": dish_ingredients,
+        "triggered": triggered,
+        "risk_level": risk
+    }
+
+\end{lstlisting}
+
+The \texttt{check\_allergens} function compares dish ingredients with the user’s allergy data to detect allergens and assigns a risk level (SAFE, MEDIUM, or HIGH).
+
+\vspace{0.5cm}
+\subsection{Landing Page UI }
 \begin{figure}[h!]
     \centering
-    \vspace{5cm} 
-    \caption{Application Interface: Map Visualization}
+    \includegraphics[width=0.60\textwidth]{landing page.png}
+    \caption{Website Interface: Landing Page}
     \label{fig:map_viz}
 \end{figure}
-
+\vspace*{0.23cm}
+\subsection{Food Allergy Detection Interface}
 \begin{figure}[h!]
     \centering
-    \vspace{5cm} 
-    \caption{Application Interface: Post Creation and Data Entry}
+    \includegraphics[width=0.85\textwidth]{index.png}
+    \caption{Website Interface:Image Uploading and Allergens selecting  }
     \label{fig:post_creation}
 \end{figure}
 
+Figure 6.2 illustrates the user interface for uploading a food image either through file selection or camera capture, selecting preferred allergens from the available options, and initiating the scan for allergy risk analysis.
+\subsection{Food Scan and Allergy Analysis Result}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.65\textwidth]{working.png}
+    \caption{Website Interface:Risk Analysis Result (1) }
+    \label{fig:post_creation}
+\end{figure}
+\vspace*{1cm}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.65\textwidth]{working2.png}
+    \caption{Website Interface:Risk Analysis Result (2) }
+    \label{fig:post_creation}
+\end{figure}
+
+Figure 6.3,6.4 illustrates the result interface of the Food Allergy Risk Estimation System after processing the uploaded image.The interface shows the identified dish along with the model confidence score, followed by the detected ingredients associated with the dish.
+
+The system then provides an allergen risk estimation, indicating the risk level (e.g., Medium) along with a warning message explaining the detected allergen and its source. Additionally, the interface presents the top model predictions with corresponding confidence levels, giving insight into the classification accuracy.
+
+\subsection{Non-Food Detection}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.55\textwidth]{non food.png}
+    \caption{Website Interface:Risk Analysis Result (3) }
+    \label{fig:post_creation}
+\end{figure}
+
+The machine learning model is trained with over 1000 non-food and random images to improve its ability to distinguish between food and non-food items, as well as to handle blurred or low-quality images with lower confidence scores.
+
+\subsection{DataSet}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.65\textwidth]{database.png}
+    \caption{Custom Dataset }
+    \label{fig:post_creation}
+\end{figure}
+
+The model is trained using a custom-built dataset consisting of relevant food images to improve classification accuracy.
+\subsection{ML Training-Colab}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.85\textwidth]{model train.png}
+    \caption{Training machine learning model}
+    \label{fig:post_creation}
+\end{figure}
+
+The model was trained using Google Colab, achieving an accuracy of {79\%} on the dataset.
 \section{System analysis}
 
+The system is analyzed based on its functionality, accuracy, and usability. It effectively identifies food items from images using the trained MobileNetV2 model and estimates allergy risks using rule-based logic. The system is capable of handling real-world scenarios where ingredient information is not available, providing useful decision support to users. The user interface is simple and easy to use, making the system accessible to a wide range of users
 \subsection{Testing analysis}
-Software testing is a critical phase of the system development life cycle to ensure the Reunite platform operates without failure under various conditions. Testing was conducted rigorously to identify and resolve defects in the Flutter UI and PostgreSQL backend.
+Testing is performed to ensure the correctness and reliability of the system. Different test cases are used, including various food images, allergy combinations, and edge cases such as low-quality or non-food images. The system is verified to produce consistent and meaningful results under different conditions.
 
 \subsection{Unit Testing}
-Unit testing involved isolating and testing individual modules. The $mScore$ mathematical logic was tested with dummy variables to ensure accurate probability outputs. The Mapbox clustering algorithm was also unit-tested to verify that it correctly grouped nearby coordinate arrays without crashing.
+Each module of the system is tested individually to ensure proper functionality. Modules such as image preprocessing, food classification, ingredient estimation, and allergy matching are verified separately. This helps in identifying and fixing errors at an early stage of development..
 
 \subsection{System Testing}
-System testing evaluated the fully integrated application. This included testing the real-time WebSocket connections by simulating simultaneous posts from multiple users to ensure data synchronized across devices without manual refreshing. The QR verification protocol was also tested end-to-end to confirm cryptographic handshake success.
+System testing is carried out to evaluate the complete workflow of the application. The system is tested from image upload to result generation to ensure all components are properly integrated and functioning together. This confirms the reliability and stability of the overall system.
 
 \section{Performance Analysis}
-The platform demonstrated exceptional operational stability. By utilizing greedy clustering algorithms ($O(N)$ complexity), the application minimized frame drops, successfully maintaining 60 frames per second during heavy map zooming and panning. Real-time updates pushed from Supabase resolved in under 200 milliseconds, ensuring users never viewed obsolete "ghost data".
+The system demonstrates efficient performance with quick response time due to the use of the lightweight MobileNetV2 model. The model achieves an accuracy of 79\%, which is sufficient for a mini project and provides reasonably reliable predictions. The performance of the system depends on factors such as image quality, dataset size, and model training. Although the system provides useful risk estimation, it is not fully accurate and should be considered as a decision-support tool rather than a medical diagnostic system.
 
 
 % CHAPTER 7
 \chapter{CONCLUSION}
-The development of the "Reunite" application marks a significant paradigm shift in urban property recovery. It successfully transforms the lost-and-found process from a passive, panic-inducing "waiting game" into an active, algorithmically directed recovery mission. By prioritizing security, the application replaces vague social posts with a rigorous, mathematically secured system that prevents fraud and protects user identities. Ultimately, it successfully establishes a secure, real-time "Trust Network" capable of serving the community.
+The Food Allergy Risk Estimation System is developed as a practical solution to address the challenges faced by individuals with food allergies, especially in situations where ingredient information is not readily available. The system combines machine learning and rule-based logic to analyze food images, identify the dish, estimate possible ingredients, and evaluate potential allergy risks based on user-specific preferences.
+
+The implementation of the MobileNetV2 model enables efficient food classification with an accuracy of 79\%, while maintaining low computational requirements. The use of a custom-built dataset improves the relevance of predictions for real-world food items. Additionally, the integration of ingredient estimation and allergy matching enhances the system’s ability to provide meaningful and personalized risk assessments.
+
+The system provides outputs in a clear and understandable format, including food identification, confidence score, and allergy risk level, which helps users make informed decisions before consuming food. Although the system does not guarantee complete accuracy, it serves as an effective decision-support tool that raises awareness about potential food allergens and reduces the chances of accidental exposure.
+
+Overall, the project demonstrates the effective application of image processing, machine learning, and intelligent system design in solving a real-world problem. It highlights the importance of combining AI techniques with practical logic to create user-friendly and impactful solutions.
 
 \section{Future Scope}
-Several enhancements are planned for future iterations:
+While the system achieves its primary objectives, there are several opportunities for further enhancement and development:
 \begin{itemize}
-    \item \textbf{AI Image Matching:} Integrating advanced computer vision models to automatically match found items with lost item descriptions based on uploaded images.
-    \item \textbf{Wider Geographic Scaling:} Expanding the backend infrastructure to handle multi-city geospatial clustering.
-    \item \textbf{Cross-Platform Web Client:} Developing a unified web portal to allow administrative access for campus security and local authorities.
+    \item \textbf{Dataset Expansion:} Increasing the size and diversity of the custom dataset to improve model accuracy and generalization across various food categories.
+    \item \textbf{Advanced Model Integration:} Incorporating more powerful deep learning models such as EfficientNet or ResNet to enhance food classification performance.
+    \item \textbf{Real-Time Food Detection:} Implementing live camera-based scanning for instant food recognition and allergy risk estimation.
+    \item \textbf{Improved Ingredient Prediction:} Developing multi-label classification techniques to identify multiple ingredients more accurately.
+    \item \textbf{Mobile Application Development:} Creating a dedicated mobile application to improve accessibility and user experience.
+    \item \textbf{Cloud-Based Integration:} Integrating cloud storage and APIs for scalable data management and faster processing.
+    \item \textbf{Cuisine and Region-Based Ingredient Mapping:} Enhancing ingredient estimation by incorporating cuisine and regional variations to improve the accuracy of inferred ingredients.
+    \item \textbf{Enhanced User Interaction:} Extending the system to provide detailed nutritional information along with allergen detection.
+    \item \textbf{Robustness Improvement:} Enhancing system performance for complex dishes, mixed foods, and low-quality images.
 \end{itemize}
 
 %----------------------------------------------------------------------------------------
@@ -711,41 +866,74 @@ Several enhancements are planned for future iterations:
 \begin{thebibliography}{99}
 
 \bibitem{alotaibi}
-M. AL-Otaibi, "A secure and safe mobile application to retrieve lost items in educational institutes," \textit{12th International Conf.}, Aug 2024.
+S. Horiguchi, S. Amano, M. Ogawa, and K. Aizawa,
+“Personalized Classifier for Food Image Recognition,
+” IEEE Transactions on Multimedia \\
+available at \texttt{https://ieeexplore.ieee.org/document/8254308}
+
 
 \bibitem{chen}
-Y. Chen, Wang, X. Li, "Mobile application architectures for cloud-based data synchronization," \textit{IEEE Magazine}, 54(9), 72-78, 2016.
+Suwetha K., Abhiram R., Crispin R., Nagaraj R. — AI-Powered Ingredient Detector for Allergies
+2025 IEEE International Conference on Computing and Communication Technologies (ICCCT)
+This paper presents an AI system that detects allergens using computer vision and NLP from food images \\ available at
+\texttt{https://www.scribd.com/document/904380014/}
 
 \bibitem{kim}
-J. Kim, Lee, Hwang, "Design of user-centered mobile applications for digital content management," \textit{International Journal}, 34(6), 543-556, 2018.
+Priya N V,Preetam Kumari,Poorvika N,Sanjana R,Dr. Hema Jagadish-Indian Food Image Recognition with MobileNetV2
+\texttt{https://www.irjet.net/archives/V8/i8/IRJET-V8I8102.pdf}
 
 \bibitem{unifind}
-"Uni Find: Lost and Found Objects Management System using AI Cloud Services," 2025.
+Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, Liang-Chieh Chen – MobileNetV2: Inverted Residuals and Linear Bottlenecks (2018)
+\texttt{https://arxiv.org/abs/1801.04381}
 
 \bibitem{qrsystem}
-"QR-Code Enabled Identification and Recovery System for Lost Individuals," 2024.
+Karima Moumane, Ikram El Asri, Taoufiq Cheniguer, Soufiane Elbiki – Food Recognition and Nutrition Estimation using MobileNetV2 (2023)
 
 \bibitem{multifeature}
-"Archival and Retrieval of Lost Objects using Multi-feature Image Matching," 2016.
+Chang Liu, Yu Cao, Yan Luo, Guanling Chen, Vinod Vokkarane, Yunsheng Ma – DeepFood: Deep Learning-Based Food Image Recognition (2016)
+\texttt{https://arxiv.org/abs/1606.05675}
 
 \bibitem{mobilefinder}
-"Mobile Finder System: A Smart Approach to Lost and Found Mobile Tracking," 2025.
+Shayan Rokhva, Babak Teimourpour, Amir Hossein Soltani – Real-Time Food Recognition using MobileNetV2 (2024)\\
+\texttt{https://arxiv.org/abs/2405.11621}
 
 \bibitem{datasync}
-"Reliable, Consistent, and Efficient Data Sync for Mobile Apps," 2015.
-
+L. Bu et al. – Recognition of Food Images Based on Transfer Learning and Ensemble Learning (2024)\\
+\texttt{https://pmc.ncbi.nlm.nih.gov/articles/PMC10798480/}
 \bibitem{mafqodat}
-"Mafqodat: A Secure and Safe Mobile Application to Retrieve Lost Items," 2023.
+T. Nguyen, J. Li, D. Liu – Food Allergen Detection Using Machine Learning Techniques (2021)\\
+\texttt{https://ieeexplore.ieee.org/document/9441097}
 
 \bibitem{smartlost}
-"Smart Lost \& Found Management System with QR Code Tracking," 2025.
+J. Chen, L. Zhou, H. Zhang – Ingredient Recognition from Food Images Using Deep Learning (2021)\\
+\texttt{https://ieeexplore.ieee.org/document/9444567}
 
 \bibitem{distributedimage}
-"Distributed Image Retrieval Method in Multi-Camera System of Smart City," 2025.
+A. Myers, N. Johnston, V. Rathod – Im2Calories: Towards an Automated Mobile Vision Food Diary (2015)
+\texttt{https://ieeexplore.ieee.org/document/7299081}
 
 \bibitem{antitheft}
-"Android \& Firebase Based Anti-Theft Mobile Application," 2023.
+Y. Kawano, K. Yanai – Food Image Recognition with Deep Convolutional Features for Dietary Assessment (2015)
+\texttt{https://ieeexplore.ieee.org/document/7298842}
+\bibitem{ant}
+P. Pouladzadeh, S. Shirmohammadi, R. Al-Maghrabi – Measuring Calorie and Nutrition from Food Images (2014)
+\texttt{https://ieeexplore.ieee.org/document/6979441}
 
 \end{thebibliography}
+\newpage
+\ClearShipoutPictureBG  % <-- THIS removes border from this page onward
 
+\thispagestyle{empty}   % optional (removes header/footer)
+
+\vspace*{\fill}
+
+\begin{flushright}
+\includegraphics[width=2.5cm]{tec.jpg} \\[0.5cm]
+\textbf{Department of Computer Science and Engineering} \\[6pt]
+Thejus Engineering College \\[4pt]
+Vellarakkad, Thrissur - 680 584 \\[4pt]
+\texttt{(http://www.thejusengg.ac.in)}
+\end{flushright}
+
+\end{document}
 \end{document}
