@@ -10,6 +10,7 @@
 \usepackage{graphicx}
 \usepackage{titlesec}
 \usepackage{tabularx}
+\usepackage{changepage}
 \usepackage{tocloft}
 \usepackage{hyperref}
 \usepackage{listings}
@@ -110,16 +111,16 @@
         
         \vspace{1cm}
         
-        {\Large \bfseries FINAL MINI PROJECT REPORT \par}
+        {\Large \bfseries  MINI PROJECT REPORT \par}
         
         \vspace{0.2cm}
         
         {\large \textit{Submitted by} \par}
         \vspace{1cm}
-        {\Large \bfseries MOHAMMED FAHEEM NV \par}
-        {\Large \bfseries THANSEEH PP \par}
-        {\Large \bfseries NOURIN FATHIMA \par}
-        {\Large \bfseries MOHAMMED SHAMMAS \par}
+        {\Large \bfseries MOHAMMED FAHEEM NV (TJE23CS048) \par}
+        {\Large \bfseries THANSEEH PP  (TJE23CS076) \par}
+        {\Large \bfseries NOURIN FATHIMA  (TJE23CS062)\par}
+        {\Large \bfseries MOHAMMED SHAMMAS (TJE23CS051) \par}
         
         \vspace{0.7cm}
         
@@ -170,17 +171,14 @@
 \end{center}
 
 \vspace{0.5cm}
-
-\noindent This is to certify that the report entitled \textbf{FOOD ALLERGY RISK ESTIMATION SYSTEM} submitted by \textbf{MOHAMED FAHEEM NV, THANSEEH PP, NOURIN FATHIMA, and MOHAMMED SHAMMAS} to the APJ Abdul Kalam Technological University in partial fulfillment of the B.Tech. degree in Computer Science and Engineering is a bonafide record of the project work carried out by them under my guidance and supervision.
-
-\vspace{0.5cm}
-\noindent This report in any form has not been submitted to any other University or Institute for any purpose.
+\noindent This is to certify that the report entitled \textbf{FOOD ALLERGY RISK ESTIMATION SYSTEM} submitted by \textbf{MOHAMED FAHEEM NV, THANSEEH PP,NOURIN \\ FATHIMA, and  MOHAMMED SHAMMAS} to the APJ Abdul Kalam Technological University in partial fulfillment of the B.Tech. degree in Computer Science and Engineering is a bonafide record of the project work carried out by them under my guidance and supervision. This report in any form has not been submitted to any other University or Institute for any purpose.
 
 \vspace{2cm}
 
 \noindent \textbf{Ms. Blessy Varghese} \hfill \textbf{Ms.Heera BM} \\
 (Project Guide) \hfill (Project Coordinator) \\
-Department of CSE \hfill Department of CSE \\
+Assistant Professor \hfill Assistant Professor\\
+Dept. of CSE \hfill Dept. of CSE \\
 Thejus Engineering College \hfill Thejus Engineering College 
 \vspace{1cm}
 
@@ -198,22 +196,36 @@ Thejus Engineering College \hfill Thejus Engineering College
 \addcontentsline{toc}{chapter}{Acknowledgement}
 \chapter*{ACKNOWLEDGMENT}
 
-We would like to express our sincere gratitude to all those who have supported and guided us throughout the successful completion of our mini project titled \textbf{“Food Allergy Risk Estimation System.”}
+We would like to express our sincere gratitude to all those who have supported and
+guided us throughout the successful completion of our mini project titled \textbf{“Food Al-
+lergy Risk Estimation System.”}
 
-First and foremost, we extend our heartfelt thanks to our project guide \textbf{Ms.Blessy Varghese}, Assistant Professor, Department of Computer Science and Engineering, Thejus Engineering College, for her valuable guidance, continuous encouragement, and support throughout the project
+We sincerely express our gracefulness to \textbf{Dr. Vince Paul}, Principal of Thejus En-
+gineering College, Vellarakkad, and \textbf{Ms. Vinitha A V}, Associate Professor and Head
+of Department, Computer Science and Engineering, for encouraging and supporting us
+throughout the project.
 
-We are also highly thankful to our project coordinator, \textbf{Ms. Heera BM}, who through her expert supervision, encouragement, and constructive criticism gave us constant support amidst her busy schedule.
+We are also thankful to our project guide, \textbf{Ms.Blessy Varghese}, Assistant Professor
+in Dept. of Computer Science and Engineering who through her expert supervision,
+encouragement and constructive criticism gave us constant support amidst her busy
+schedule.
 
-We also express our sincere thanks to \textbf{Ms. Vinitha A V} Head of the Department of Computer Science and Engineering, Thejus Engineering College, for providing the necessary facilities and academic support required for the successful completion of this work.
+We would also like to express our gratitude to our project coordinator, \textbf{
+Ms. Heera B M}, Assistant Professor in Dept. of Computer Science and Engineering, for their
+valuable coordination and support throughout the project.
 
-We are grateful to the college management for providing the infrastructure and learning environment needed for this project. We also thank our faculty members,friends, and classmates for their support, suggestions, and encouragement during the development of this project and God the almighty for leading us straight to the success of this project.
-
+We acknowledge the liberal help provided by the members of the college library and
+the institutional staffs. We also thank our classmates for their support. Last but not the
+least, we thank God the almighty, for leading us straight to success of the project with
+his blessings.
 \vspace{2cm}
 
-\noindent \textbf{MOHAMMED FAHEEM NV} \\
+\begin{flushright}
+\textbf{MOHAMMED FAHEEM NV} \\
 \textbf{THANSEEH PP} \\
-\textbf{NOURIN FATHIMA } \\
-\textbf{MOHAMMED SHAMMAS} 
+\textbf{NOURIN FATHIMA} \\
+\textbf{MOHAMMED SHAMMAS}
+\end{flushright}
 
 % ABSTRACT
 \newpage
@@ -334,6 +346,87 @@ The use of MobileNetV2 ensures efficient performance, and the system can be furt
 
 % CHAPTER 2
 \chapter{LITERATURE SURVEY}
+
+Al-Otaibi presented a comprehensive study on secure mobile applications for retrieving
+lost items within educational institutions. The work identified major issues in traditional
+manual recovery systems, such as lack of trust and security risks between finders and
+owners. The proposed approach emphasized the use of verified institutional identities
+to enhance trust and reduce fraudulent claims. While the system improved recovery
+rates significantly, it was limited to closed campus environments and lacked scalability
+for public use.
+
+
+Chen et al. explored mobile application architectures focused on cloud-based syn-
+chronization. The study addressed the issue of data latency, which often results in
+outdated or ”ghost” data on user devices. By implementing real-time communication
+technologies such as WebSockets and push notifications, the system improved synchro-
+nization efficiency and user trust. However, the approach depends heavily on stable
+internet connectivity, making it less reliable in low-network areas.
+
+
+Kim et al. focused on usability design principles for mobile applications dealing
+with large volumes of digital content. The study highlighted the importance of clean in-
+terfaces, logical grouping, and reduced visual clutter to enhance user engagement. The
+results showed improved usability and reduced user abandonment. However, dynam-
+ically applying these design principles in systems involving complex geospatial data
+remains challenging.
+
+
+The ”Uni Find” system introduced an AI-based solution for managing lost and
+found items using image matching techniques. The system aimed to replace inefficient
+keyword-based searches with automated image-to-image comparisons. This signifi-
+cantly improved matching accuracy and reduced recovery time. However, the system
+requires high-quality images, which may also increase the risk of fraudulent claims.
+
+
+The QR-Code Enabled Identification system focused on secure verification during
+physical item exchange. It proposed a QR-based mechanism that links to a secure
+database for instant identity verification. This approach minimized theft risks and en-
+sured safe handovers. However, its effectiveness depends on users having smartphones
+and internet access at the time of verification.
+
+
+Research on Distributed Image Retrieval in Smart Cities addressed the challenge
+of managing large-scale visual data. The study utilized clustering algorithms such as
+K-means to reduce map clutter and improve interface performance. The results demon-
+strated better scalability and visualization. However, executing such algorithms effi-
+ciently on low-end mobile devices remains a limitation.
+
+
+The Android and Firebase-Based Anti-Theft system examined security issues re-
+lated to fake ownership claims. It proposed strong authentication mechanisms and
+privacy controls to protect user data and prevent fraud. While the system enhanced
+security, strict onboarding procedures may discourage user adoption.
+
+
+Wang et al. proposed a BLE-based tracking system for both indoor and outdoor en-
+vironments. The system used Bluetooth Low Energy beacons to provide high-accuracy
+location tracking where GPS is ineffective. Although effective, the requirement for
+specialized hardware tags increases cost and limits widespread implementation.
+
+
+Martinez and Lopez explored a crowdsourcing-based approach for lost item recov-
+ery. By incorporating gamification elements, the system encouraged user participation
+and improved search efficiency. However, the approach is vulnerable to false reports
+and misuse by malicious users.
+
+
+Gupta et al. introduced a blockchain-based framework for secure reward distribu-
+tion. Using smart contracts, the system ensured transparent and trustless transactions
+between users. Despite its advantages, high transaction fees and latency make it unsuit-
+able for small-scale rewards.
+
+
+Zhao and Smith focused on privacy-preserving location sharing techniques. The
+study used spatial cloaking and K-anonymity to protect user identity and location data.
+While privacy was significantly enhanced, the reduction in location accuracy affects the
+precise identification of lost items.
+
+
+Anderson and Lee conducted a comparative analysis of cross-platform frameworks
+for real-time mapping applications. The study found that Flutter outperformed React
+Native in rendering performance and stability under heavy data loads. However, rapid
+framework updates pose challenges for long-term system maintenance.
 
 \begin{table}[h]
 \centering
@@ -936,4 +1029,3 @@ Vellarakkad, Thrissur - 680 584 \\[4pt]
 \end{flushright}
 
 \end{document}
-
